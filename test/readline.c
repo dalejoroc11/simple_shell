@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ *main - function
+ *Return: 0 on succes
+ */
 int main(void)
 {
 	char *buffer = malloc(1024);
@@ -8,8 +12,8 @@ int main(void)
 	while (1)
 	{
 		printf("$ ");
-		getline(buffer, len, stdin);
-		prinf("%s", buffer);
+		getline(&buffer, &len, stdin);
+		printf("%s", buffer);
 	}
 	return (0);
 }
