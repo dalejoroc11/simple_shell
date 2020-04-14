@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main(int ac, char **av)
+/**
+ *main - prototype
+ *@ac:argument 1
+ *@av:argument 2
+ *Return: 0
+ */
+int ac, char **av)
 {
 	int i = 0;
 
