@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *main - prototype
- *@ac:argument 1
- *@av:argument 2
- *Return: 0
+ *main - Function.
+ *@ac: number of arguments.
+ *@av:argument values.
+ *Return: 0 on succes.
  */
-int ac, char **av)
+int main(int ac, char **av)
 {
 	int i = 0;
 
