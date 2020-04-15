@@ -1,18 +1,15 @@
 #include <stdio.h>
 #include <unistd.h>
-
 /**
- * main - PID
- *
+ * main - procces id
  * Return: Always 0.
  */
 int main(void)
 {
-	pid_t my_pid;
-
-	my_pid = getpid();
-	printf("hijo %u\n", my_pid);
-	my_pid = getppid();
-	printf("padre %u\n", my_pid);
+	pid_t m_pid;
+	m_pid = getpid();
+	printf("id hijo %u\n", m_pid);
+	m_pid = getppid();
+	printf("id padre %u\n", m_pid);
 	return (0);
 }
