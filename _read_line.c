@@ -12,4 +12,3 @@ char *_read_line(ssize_t *c)
 	*c = getline(&input, &bufsize, stdin);
 	return (input);
 }
-~

@@ -19,4 +19,3 @@ char *_read_line(ssize_t *c);
 char **tokens(char *line, char *sep);
 
 #endif
-~
